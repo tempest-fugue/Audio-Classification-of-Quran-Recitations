@@ -4,6 +4,8 @@ This notebook uses a dataset of audio recordings of recitations of the Quran to 
 
 Dataset is accessible through the following. The dataset is too large to save via GitHub.
 
-```!pip install opendatasets --quiet
+```
+!pip install opendatasets --quiet
 import opendatasets as od
-od.download('http://www.kaggle.com/datasets/mohammedalrajeh/quran-recitations-for-audio-classification', force=False)```
+od.download('http://www.kaggle.com/datasets/mohammedalrajeh/quran-recitations-for-audio-classification', force=False)
+```
